@@ -1,3 +1,5 @@
+
+# link: https://codeforces.com/contest/1950/problem/C
 for _ in range(int(input())):
     n = input().split(':')
     a = (n[0])

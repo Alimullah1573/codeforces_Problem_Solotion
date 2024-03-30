@@ -1,9 +1,12 @@
+# link :  https://codeforces.com/contest/1950/problem/B
+
 def solve():
     n = int(input())
     for i in range(n):
         for j in range(n):
             if (i + j) % 2 == 0:
                 print("##", end='')
+                
             else:
                 print("..", end='')
         print()
